@@ -1,0 +1,83 @@
+/*==================== Media Queries ========================= */
+
+@media (max-width: 991px) {
+  .py-80 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .home .about_section .about_text {
+    width: 100% !important;
+  }
+
+  .home .review_section .row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .template1 .logo__container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .template2 .author_title {
+    color: #474085;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-top: 10px;
+  }
+
+  .template2 .author_box img {
+    height: 140px;
+    border-radius: 4px;
+  }
+
+  .product-template .logo__container {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .template1 .heading {
+    font-size: 24px;
+  }
+
+  .template1 .sub_heading {
+    font-size: 18px;
+  }
+  .product-template .release_date {
+    font-size: 18px;
+  }
+  .product-template .heading {
+    font-size: 24px;
+  }
+  .product-template .product__image {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .product-template .product__description p {
+    font-size: 18px;
+  }
+}
+
+/* For Mobile Device */
+@media (max-width: 575px) {
+  .py-80 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .home .press_section .single_press .press_content p {
+    text-align: left;
+  }
+}
+@media (max-width: 380px) {
+  .template2 .logo__container {
+    width: 90%;
+  }
+  .template2 .poster_container {
+    width: 100%;
+  }
+}
