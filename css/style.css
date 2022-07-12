@@ -23,6 +23,13 @@ a {
 /* Theme CSS */
 
 /* STYLE FOR HEADER SECTION */
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 .header .nav a {
   text-transform: uppercase;
   color: #223442;
@@ -81,6 +88,32 @@ a {
 }
 
 /* STYLE FOR HOME PAGE */
+
+.home .hero_section {
+  background-image: linear-gradient(rgba(34, 71, 236, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg1.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+.home .hero_section .hero_content h4 {
+  color: white;
+}
+.home .hero_section .hero_content h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.home .hero_section .hero_content p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.home .hero_section .hero_content .btn {
+  font-weight: 600;
+}
 .home .about_section .row {
   background-color: #fbe8a6;
 }

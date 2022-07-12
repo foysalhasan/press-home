@@ -1,9 +1,25 @@
 /*==================== Media Queries ========================= */
 
+@media (max-width: 1199px) {
+  .home .hero_section {
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+  }
+  .home .hero_section .hero_content h1 {
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 991px) {
   .py-80 {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .home .hero_section {
+    background-position: left;
+    min-height: 60vh;
   }
 
   .header .header_logo {
@@ -23,6 +39,11 @@
   .header .header_logo {
     width: 15% !important;
   }
+
+  .home .hero_section .row {
+    padding-top: 10px;
+  }
+
   .template1 .logo__container {
     width: 100px;
     height: 100px;
@@ -76,11 +97,24 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
+
+  .home .hero_section {
+    background-position: left;
+    min-height: 40vh;
+  }
+
+  .home .hero_section .hero_content h1 {
+    font-size: 30px;
+  }
+
   .home .press_section .single_press .press_content p {
     text-align: left;
   }
 }
 @media (max-width: 380px) {
+  .home .hero_section .hero_content h1 {
+    font-size: 24px;
+  }
   .template2 .logo__container {
     width: 90%;
   }
