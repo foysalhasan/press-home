@@ -51,6 +51,19 @@
 
 // });
 
+// JS FOR TOGGLE MOBILE MENU
+const toggleBtn = document.getElementById('nav_toggle')
+const navCloseBtn = document.getElementById('nav_close_btn')
+const mobileMenu = document.querySelector('.mobile_menu')
+
+toggleBtn.addEventListener('click', function () {
+  mobileMenu.classList.toggle('active')
+})
+
+navCloseBtn.addEventListener('click', function () {
+  mobileMenu.classList.remove('active')
+})
+
 // JS FOR PASSWORD TOGGLE FUNCTIONALITY
 const toggleLogPassBtn = document.querySelector('.login_pass_icon')
 const LogPassField = document.querySelector('.login_pass_field')

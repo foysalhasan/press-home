@@ -5,6 +5,10 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
+
+  .header .header_logo {
+    width: 8% !important;
+  }
   .home .about_section .about_text {
     width: 100% !important;
   }
@@ -16,6 +20,9 @@
 }
 
 @media (max-width: 767px) {
+  .header .header_logo {
+    width: 15% !important;
+  }
   .template1 .logo__container {
     width: 100px;
     height: 100px;
