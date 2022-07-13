@@ -74,17 +74,55 @@ a {
   background-color: #474085;
 }
 
-#nav_close_btn {
+.header #nav_close_btn {
   top: 30px;
   right: 20px;
 }
 
-#nav_close_btn i {
+.header #nav_close_btn i {
   width: 40px;
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
   background-color: #2b3a46;
+}
+
+/* STYLE FOR FOOTER SECTION */
+
+.footer .footer_top {
+  background-color: #202124;
+}
+
+.footer .footer_bottom {
+  background-color: #091b29;
+}
+
+.footer .footer_column h4 {
+  color: #fff;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.footer .footer_column h4::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  background-color: #fff;
+  bottom: -8px;
+  left: 0px;
+  height: 2px;
+  width: 60px;
+}
+
+.footer .footer_column .footer_links a {
+  color: #d3dce5;
+  display: block;
+  font-weight: 500;
+  margin: 10px auto;
+}
+
+.footer .footer_column .footer_links a:hover {
+  color: #3498db;
 }
 
 /* STYLE FOR HOME PAGE */
