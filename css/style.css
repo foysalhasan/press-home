@@ -94,7 +94,7 @@ a {
 }
 
 .footer .footer_bottom {
-  background-color: #091b29;
+  background-color: #010a11;
 }
 
 .footer .footer_column h4 {
@@ -218,6 +218,12 @@ a {
   margin: auto;
   display: block;
   object-fit: cover;
+}
+
+.home .faq_section .accordion-header button {
+  color: #091b29;
+  font-weight: 700;
+  text-transform: capitalize;
 }
 
 /* Template1 CSS Goes Here */
