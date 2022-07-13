@@ -28,7 +28,9 @@
   .home .about_section .about_text {
     width: 100% !important;
   }
-
+  .home .why_choose_section .top_header p {
+    width: 100% !important;
+  }
   .home .review_section .row {
     padding-top: 30px;
     padding-bottom: 30px;

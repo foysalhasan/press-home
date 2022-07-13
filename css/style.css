@@ -20,6 +20,9 @@ a {
 .text-color {
   color: #3498db;
 }
+.heading_color {
+  color: #623bcc;
+}
 /* Theme CSS */
 
 /* STYLE FOR HEADER SECTION */
@@ -159,6 +162,10 @@ a {
 .home .about_section .about_content h3 {
   font-size: 24px;
   color: #937c29;
+}
+
+.home .why_choose_section .why_checklist span {
+  margin-top: -5px;
 }
 
 .home .press_section .single_press .press_img {
