@@ -23,6 +23,17 @@ a {
 .heading_color {
   color: #623bcc;
 }
+
+.btn_custom1 {
+  background-color: #232850;
+  color: #fff !important;
+  border-color: #232850;
+}
+
+.btn_custom1:hover {
+  background-color: #623bcc;
+  border-color: #623bcc;
+}
 /* Theme CSS */
 
 /* STYLE FOR HEADER SECTION */
@@ -216,6 +227,14 @@ a {
 
 .home .review_section .row {
   background-color: #edeef0;
+}
+
+.home .submit_section .row {
+  background-image: linear-gradient(rgba(233, 192, 12, 0.7), rgba(116, 114, 28, 0.7)), url('../img/overlay-submit-sec.jpg');
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  border-radius: 10px;
 }
 
 .home .single_review .client_img img {

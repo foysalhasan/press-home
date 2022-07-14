@@ -46,6 +46,11 @@
     padding-top: 10px;
   }
 
+  .home .submit_section .row {
+    padding: 30px 0 !important;
+    border-radius: 0;
+  }
+
   .template1 .logo__container {
     width: 100px;
     height: 100px;
