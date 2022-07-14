@@ -51,6 +51,13 @@
     border-radius: 0;
   }
 
+  .user_dashboard_section .tab-content {
+    height: 400px;
+  }
+  .user_dashboard_section .side-bar {
+    height: 400px;
+  }
+
   .template1 .logo__container {
     width: 100px;
     height: 100px;
@@ -121,6 +128,16 @@
 @media (max-width: 380px) {
   .home .hero_section .hero_content h1 {
     font-size: 24px;
+  }
+
+  .user_dashboard_section .user_photo_main .user_name {
+    font-size: 24px;
+  }
+  .user_dashboard_section .social_link i {
+    font-size: 17px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
   }
   .template2 .logo__container {
     width: 90%;

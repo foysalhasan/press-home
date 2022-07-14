@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ?Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
+    <!-- Font-Awesome -->
+
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Bootstrap Css -->
+
+    <!-- Default Css -->
+    <link rel="stylesheet" href="css/default.css" />
+    <!-- Default Css -->
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Custom Css -->
+
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Responsive Css -->
+
+    <title>Press | User DashBoard</title>
+  </head>
+  <body class="home" style="background-image: none">
+    <!-- Start From Here -->
+    <!-- HEADER -->
+    <div class="top_bar py-3 bg-dark d-md-block d-none">
+      <div class="container text-white">
+        <div class="row justify-content-between">
+          <div class="col-md-6 col-12">
+            <div class="top_bar_left text-white">
+              <span class="f-600">Toll Free: +1 712-086-1256</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="top_bar_right text-white text-md-end">
+              <a class="text-white me-2" href="#">
+                <i class="fas fa-envelope"></i>
+                <span class="f-600">support@press.com</span>
+              </a>
+              <a class="text-white" href="#">
+                <i class="fas fa-phone-alt"></i>
+                <span class="f-600">24 / 7 Support</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header bg-white shadow-sm">
+      <div class="main__navbar active border-2 border-bottom py-20">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-3 col-8">
+              <a class="text-color logo d-flex align-items-center" href="#">
+                <img src="./img/press_logo.png" alt="Press Logo" class="d-block w-20 me-2 flex-shrink-0 header_logo" />
+                <span class="d-block f-700 fs-20">NEWS PRESS</span>
+              </a>
+            </div>
+            <div class="col-lg-9 col-4 text-end">
+              <button class="btn d-inline-block d-lg-none" id="nav_toggle">
+                <i class="fas fa-bars text-dark fs-24"></i>
+              </button>
+              <nav class="d-lg-flex justify-content-end nav d-none">
+                <a href="#">home</a>
+                <a href="#">pricing</a>
+                <a href="#">press release</a>
+                <a href="#">service</a>
+                <a href="#">template</a>
+                <a href="#">support</a>
+                <a href="#">login</a>
+              </nav>
+            </div>
+            <!-- MOBILE MENU -->
+            <div class="position-fixed min-vh-100 bg-dark top-0 bottom-0 d-flex d-lg-none flex-row mobile_menu p-0">
+              <button class="btn position-absolute" id="nav_close_btn">
+                <i class="fas fa-times text-white fs-24"></i>
+              </button>
+              <nav class="mobile_nav pt-100 flex-grow-1">
+                <a href="#">home</a>
+                <a href="#">pricing</a>
+                <a href="#">press release</a>
+                <a href="#">service</a>
+                <a href="#">template</a>
+                <a href="#">support</a>
+                <a href="#">login</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- USER DASHBOARD -->
+    <section class="py-100 user_dashboard_section">
+      <div class="container position-relative">
+        <div class="user_top_info d-flex align-items-center gx-2 position-absolute">
+          <img src="./img/user.png" alt="User" class="user_img rounded-circle" />
+          <span>MOHI UDDIN</span>
+        </div>
+        <div class="row gx-0 align-items-start">
+          <div class="col-2 px-0 mx-0">
+            <div class="nav side-bar flex-column nav-pills border-1 flex-nowrap flex-md-wrap" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button
+                class="nav-link active border-0 rounded-0"
+                id="v-pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-profile"
+                aria-selected="false"
+              >
+                <span class="d-none d-md-inline-block">Profile</span>
+                <i class="fas block d-md-none fa-user fs-24"></i>
+              </button>
+              <button
+                class="nav-link border-0 rounded-0"
+                id="v-pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-home"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+              >
+                <span class="d-none d-md-inline-block">Home</span>
+                <i class="fas block d-md-none fa-home fs-24"></i>
+              </button>
+              <button
+                class="nav-link border-0 rounded-0"
+                id="v-pills-messages-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-messages"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+              >
+                <span class="d-none d-md-inline-block">Message</span>
+                <i class="fas block d-md-none fa-envelope fs-24"></i>
+              </button>
+              <button
+                class="nav-link border-0 rounded-0"
+                id="v-pills-settings-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-settings"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-settings"
+                aria-selected="false"
+              >
+                <span class="d-none d-md-inline-block">Settings</span>
+                <i class="fas block d-md-none fa-cog fs-24"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-10 px-0 mx-0">
+            <div class="tab-content bg-white border-1 shadow-sm rounded-sm p-4" id="v-pills-tabContent">
+              <!-- USER PROFILE PANEL -->
+              <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                  <!-- USER PHOTO -->
+                  <!-- Edit Button -->
+                  <div class="text-end w-100">
+                    <button class="btn f-600 profile_edit_btn" data-bs-toggle="modal" data-bs-target="#profile_modal">Edit</button>
+                  </div>
+                  <div class="user_photo_main text-center">
+                    <img src="./img/user.png" alt="User" class="user_img rounded-circle" />
+                    <h4 class="uppercase mt-2 f-700 user_name">Mohi Uddin</h4>
+                  </div>
+                  <div class="user_details text-center">
+                    <!-- Bio Text -->
+                    <p class="f-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, debitis?</p>
+                    <!-- Profile Social Link -->
+                    <div class="social_link text-center mt-2">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fas fa-globe-americas"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal fade" tabindex="-1" id="profile_modal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Edit Your Profile</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <!-- Main Edit Profile Area -->
+                      <div class="modal-body">
+                        <form action="#">
+                          <!-- Change Image -->
+                          <div class="mb-3 text-center">
+                            <div class="edited_photo mx-auto mb-2">
+                              <img src="img/user.png" alt="updated photo" class="w-100 d-block" />
+                            </div>
+                            <span class="img_info text-danger">Upload an Image of Same Width & Height (Max Size: 100KB)</span>
+                            <input class="form-control" type="file" id="formFile" />
+                          </div>
+                          <!-- Change Name Field -->
+                          <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fas fa-user-circle text_color"></i></span>
+                            <input type="text" class="form-control" placeholder="Full Name" />
+                          </div>
+                          <!-- Change Bio Field -->
+                          <div class="input-group mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Your Bio"></textarea>
+                          </div>
+                          <!-- Change Facebook Link Field -->
+                          <div class="input-group mb-3">
+                            <span class="input-group-text px-15"><i class="fab fa-facebook-f text_color"></i></span>
+                            <input type="text" class="form-control" placeholder="Facebook Link" />
+                          </div>
+                          <!-- Change Twitter Link Field -->
+                          <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fab fa-twitter text_color"></i></span>
+                            <input type="text" class="form-control" placeholder="Twitter Link" />
+                          </div>
+                          <!-- Change Youtube Link Field -->
+                          <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fab fa-youtube text_color"></i></span>
+                            <input type="text" class="form-control" placeholder="Youtube Link" />
+                          </div>
+                          <!-- Change Linkedin Link Field -->
+                          <div class="input-group mb-3">
+                            <span class="input-group-text px-15"><i class="fab fa-linkedin-in text_color"></i></span>
+                            <input type="text" class="form-control" placeholder="Linked In Link" />
+                          </div>
+                          <!-- Change Website Link Field -->
+                          <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fas fa-globe-americas text_color"></i></span>
+                            <input type="text" class="form-control" placeholder="Website Link" />
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <!-- Change Profile Info Button -->
+                        <button type="submit" class="btn btn-success">Update</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <h2 class="text-primary uppercase">home</h2>
+              </div>
+              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                <h2 class="text-primary uppercase">Message</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex possimus quos nobis incidunt perspiciatis voluptate. In ducimus aliquam maxime rem
+                  saepe voluptate inventore officiis, numquam eaque neque magni, dolor quia.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                <h2 class="text-primary uppercase">system</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- USER DASHBOARD -->
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="footer_top py-30">
+        <div class="container">
+          <div class="row gy-3">
+            <div class="col-lg-3 col-6">
+              <div class="footer_column">
+                <h4>SERVICE 1</h4>
+                <div class="footer_links">
+                  <a href="#">Home</a>
+                  <a href="#">About Us</a>
+                  <a href="#">Our Services</a>
+                  <a href="#">Consultants</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="footer_column">
+                <h4>SERVICE 2</h4>
+                <div class="footer_links">
+                  <a href="#">Blog</a>
+                  <a href="#">Contact Us</a>
+                  <a href="#">Extra Links</a>
+                  <a href="#">Elements</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="footer_column">
+                <h4>SERVICE 3</h4>
+                <div class="footer_links">
+                  <a href="#">Home</a>
+                  <a href="#">About Us</a>
+                  <a href="#">Our Services</a>
+                  <a href="#">Consultants</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="footer_column">
+                <h4>SERVICE 4</h4>
+                <div class="footer_links">
+                  <a href="#">Blog</a>
+                  <a href="#">Contact Us</a>
+                  <a href="#">Extra Links</a>
+                  <a href="#">Elements</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom py-10">
+        <div class="container">
+          <div class="text-center text-white">
+            <p class="f-600 uppercase">&copy;2022 || <a href="#" class="text-white">News Press</a> || All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Ends From Here -->
+    <!-- * JavaScript Code *-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

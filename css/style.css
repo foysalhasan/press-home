@@ -42,6 +42,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 99;
 }
 
 .header .nav a {
@@ -252,6 +253,110 @@ a {
   text-transform: capitalize;
 }
 
+.user_dashboard_section {
+  background-image: url('../img/bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.user_dashboard_section .user_top_info {
+  top: -60px;
+  right: 10px;
+}
+
+.user_dashboard_section .user_photo_main img {
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  object-fit: cover;
+  border: 4px solid #0652dd;
+}
+
+.user_dashboard_section .user_top_info img {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  object-fit: cover;
+  margin-right: 2px;
+}
+
+.user_top_info span {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.user_dashboard_section .tab-content {
+  height: 600px;
+  overflow-y: auto;
+}
+.user_dashboard_section .side-bar {
+  height: 600px;
+  background-color: #f0f0f0;
+  overflow-y: auto;
+}
+
+.user_dashboard_section .side-bar button {
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.user_dashboard_section .side-bar button {
+  border-bottom: 2px solid #fff !important;
+}
+
+.user_dashboard_section .side-bar button i {
+  color: #055160;
+}
+
+.user_dashboard_section .side-bar button.active i {
+  color: #fff !important;
+}
+.user_dashboard_section .edited_photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #055160;
+}
+
+.user_dashboard_section .text_color {
+  color: #0652dd;
+}
+
+.user_dashboard_section .modal .form-control {
+  color: #091b29;
+  font-weight: 600;
+}
+
+.user_dashboard_section .profile_edit_btn {
+  background-color: #474085;
+  color: #fff;
+}
+.user_dashboard_section .social_link i {
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  background-color: #0652dd;
+  color: #fff;
+}
+
+.user_dashboard_section .social_link i:hover {
+  background-color: #623bcc;
+}
+
+.user_dashboard_section .user_photo_main .user_name {
+  color: transparent;
+  background-clip: text;
+  font-size: 32px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(135deg, #623bcc, #0652dd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* Template1 CSS Goes Here */
 
 .template1 .logo__container {
