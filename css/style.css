@@ -357,6 +357,21 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.user_dashboard_section .single_press .press_img {
+  width: 150px;
+  display: block;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.user_dashboard_section .single_press .press_content h4 a {
+  color: #091b29;
+}
+
+.user_dashboard_section .single_press .press_content h4 a:hover {
+  color: #0652dd;
+}
+
 /* Template1 CSS Goes Here */
 
 .template1 .logo__container {

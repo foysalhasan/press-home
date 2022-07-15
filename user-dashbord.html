@@ -122,16 +122,16 @@
               </button>
               <button
                 class="nav-link border-0 rounded-0"
-                id="v-pills-home-tab"
+                id="v-pills-press-tab"
                 data-bs-toggle="pill"
-                data-bs-target="#v-pills-home"
+                data-bs-target="#v-pills-press"
                 type="button"
                 role="tab"
-                aria-controls="v-pills-home"
+                aria-controls="v-pills-press"
                 aria-selected="true"
               >
-                <span class="d-none d-md-inline-block">Home</span>
-                <i class="fas block d-md-none fa-home fs-24"></i>
+                <span class="d-none d-md-inline-block">My Press</span>
+                <i class="far block d-md-none fa-newspaper fs-24"></i>
               </button>
               <button
                 class="nav-link border-0 rounded-0"
@@ -252,9 +252,72 @@
                 </div>
               </div>
 
-              <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <h2 class="text-primary uppercase">home</h2>
+              <!-- SUBMITTED PRESS PANEL -->
+              <div class="tab-pane fade" id="v-pills-press" role="tabpanel" aria-labelledby="v-pills-press-tab">
+                <h2 class="text-primary uppercase">MY PRESS</h2>
+
+                <!-- ==========================SUBMITTED PRESS================== -->
+                <div class="single_press flex flex-column mb-3">
+                  <!-- PUBLISHED DATE -->
+                  <span class="press_date f-500 text-secondary fs-14">Published on August 12, 2022 - 12.30 GMT</span>
+                  <div class="d-flex align-content-center mt-1">
+                    <!-- PRESS THUMBNAIL IMAGE -->
+                    <img class="press_img me-0 me-md-2 d-none d-md-block" src="./img/product.webp" alt="press_image" />
+                    <div class="press_content">
+                      <!-- PRESS TITLE -->
+                      <h4 class="fs-18"><a href="#">Hello World is a Nothing but a Dummy Word But People Often Use It</a></h4>
+                      <!-- PRESS EXCERPT -->
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo totam reiciendis vel, doloremque amet debitis voluptatum
+                        officia aliquam quod consequuntur aperiam deserunt voluptate porro aut unde ea veritatis...
+                      </p>
+                      <!-- Read More -->
+                      <a class="f-600" href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="single_press flex flex-column mb-3">
+                  <!-- PUBLISHED DATE -->
+                  <span class="press_date f-500 text-secondary fs-14">Published on August 12, 2022 - 12.30 GMT</span>
+                  <div class="d-flex align-content-center mt-1">
+                    <!-- PRESS THUMBNAIL IMAGE -->
+                    <img class="press_img me-0 me-md-2 d-none d-md-block" src="./img/press_photo1.webp" alt="press_image" />
+                    <div class="press_content">
+                      <!-- PRESS TITLE -->
+                      <h4 class="fs-18"><a href="#">The Perfect Shoping Mall in India That You Should Know About</a></h4>
+                      <!-- PRESS EXCERPT -->
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo totam reiciendis vel, doloremque amet debitis voluptatum
+                        officia aliquam quod consequuntur aperiam deserunt voluptate porro aut unde ea veritatis...
+                      </p>
+                      <!-- Read More -->
+                      <a class="f-600" href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!--============== PAGINATION========= -->
+                <nav class="mt-4 justify-content-center d-flex">
+                  <ul class="pagination flex-wrap">
+                    <li class="page-item disabled">
+                      <a class="page-link"><i class="fas fa-angle-double-left"></i></a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active" aria-current="page">
+                      <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">
+                        <i class="fas fa-angle-double-right"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
+
               <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                 <h2 class="text-primary uppercase">Message</h2>
                 <p>
@@ -263,7 +326,82 @@
                 </p>
               </div>
               <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                <h2 class="text-primary uppercase">system</h2>
+                <div class="card py-4 bg-white">
+                  <div class="px-4">
+                    <div class="mb-3">
+                      <h4 class="text_color"><i class="fas fa-cog me-2"></i>User Settings</h4>
+                    </div>
+                    <h6 class="mb-0">ACCOUNT PREFERENCES</h6>
+                  </div>
+                  <hr />
+                  <!-- Change User Email Area -->
+                  <div class="email p-4 d-flex justify-content-between flex-column flex-sm-row">
+                    <div class="left_area mb-3 mb-sm-0">
+                      <h5>Email Address</h5>
+                      <span class="f-500">mohi6644@gmail.com</span>
+                    </div>
+                    <button class="btn btn-outline-primary f-600" type="button" data-bs-target="#email_modal" data-bs-toggle="modal">Change</button>
+                    <!-- For Changing Email -->
+                    <div class="modal fade" tabindex="-1" id="email_modal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title text_color">Update Your Email</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form action="#">
+                              <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="far fa-envelope text-primary"></i></span>
+                                <input type="email" class="form-control" placeholder="Enter Your  New Email" />
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Update</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Change User Password Area -->
+                  <div class="email p-4 d-flex justify-content-between flex-column flex-sm-row">
+                    <div class="left_area mb-3 mb-sm-0">
+                      <h5>Change Password</h5>
+                      <span class="f-500">Password must be at least 6 characters long</span>
+                    </div>
+                    <button class="btn btn-outline-primary f-600" data-bs-toggle="modal" data-bs-target="#pass_modal" type="button">Change</button>
+
+                    <!-- For Changing Password -->
+                    <div class="modal fade" tabindex="-1" id="pass_modal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title text_color">Update Your Password</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form action="#">
+                              <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fas fa-lock-open text-primary"></i></span>
+                                <input type="password" class="form-control" placeholder="Enter Your  New Password" />
+                              </div>
+                              <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fas fa-lock text-primary"></i></span>
+                                <input type="password" class="form-control" placeholder="Confirm Password" />
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Update</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
