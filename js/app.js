@@ -64,6 +64,12 @@ navCloseBtn.addEventListener('click', function () {
   mobileMenu.classList.remove('active')
 })
 
+// MOBILE DROPDOWN
+const dropDownToggle = document.querySelector('.mobile_dropdown_toggle')
+const mobileDropdown = document.querySelector('.mobile_dropdown')
+dropDownToggle.addEventListener('click', function () {
+  mobileDropdown.classList.toggle('active')
+})
 // JS FOR PASSWORD TOGGLE FUNCTIONALITY
 const toggleLogPassBtn = document.querySelector('.login_pass_icon')
 const LogPassField = document.querySelector('.login_pass_field')

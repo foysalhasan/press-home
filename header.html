@@ -69,23 +69,45 @@
               </button>
               <nav class="d-lg-flex justify-content-end nav d-none">
                 <a href="#">home</a>
+                <a href="#">about</a>
                 <a href="#">pricing</a>
-                <a href="#">press release</a>
-                <a href="#">service</a>
-                <a href="#">template</a>
-                <a href="#">support</a>
+                <a href="#">distribution</a>
+                <div class="dropdown">
+                  <a class="dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> press release </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">All</a></li>
+                    <li><a class="dropdown-item" href="#">Featured</a></li>
+                    <li><a class="dropdown-item" href="#">By Industry</a></li>
+                    <li><a class="dropdown-item" href="#">By Country</a></li>
+                    <li><a class="dropdown-item" href="#">By U.S. State</a></li>
+                    <li><a class="dropdown-item" href="#">Archive</a></li>
+                  </ul>
+                </div>
                 <a href="#">login</a>
               </nav>
             </div>
             <!-- MOBILE MENU -->
-            <div class="position-fixed min-vh-100 bg-dark top-0 bottom-0 d-flex d-lg-none flex-row mobile_menu p-0">
+            <div class="position-fixed min-vh-100 bg-dark top-0 bottom-0 d-flex d-lg-none flex-row mobile_menu active p-0">
               <button class="btn position-absolute" id="nav_close_btn">
                 <i class="fas fa-times text-white fs-24"></i>
               </button>
               <nav class="mobile_nav pt-100 flex-grow-1">
                 <a href="#">home</a>
                 <a href="#">pricing</a>
-                <a href="#">press release</a>
+                <div>
+                  <div class="d-flex align-items-center mobile_dropdown_toggle">
+                    <span class="me-2">press release</span>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                  <div class="mobile_dropdown">
+                    <a href="#">- All</a>
+                    <a href="#">- Featured</a>
+                    <a href="#">- By Industry</a>
+                    <a href="#">- By Country</a>
+                    <a href="#">- By U.S. State</a>
+                    <a href="#">- Archive</a>
+                  </div>
+                </div>
                 <a href="#">service</a>
                 <a href="#">template</a>
                 <a href="#">support</a>
